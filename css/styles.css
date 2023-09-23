@@ -132,7 +132,9 @@ a {
     letter-spacing: 0.02em;
 }
 
-.team {}
+.team {
+    background: var#F4F4FD;
+}
 
 .team-title {
     color: #2E2F42;
