@@ -12,7 +12,7 @@ a {
     text-decoration: none;
 }
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -24,7 +24,7 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -35,7 +35,7 @@ a {
 
 .header-logo {
     color: #4d5ae5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -73,7 +73,6 @@ a {
 .address-menu-link {
     color: #434455;
     font-size: 16px;
-    font-style: normal;
     line-height: 1.50;
     letter-spacing: 0.02em;
 }
@@ -214,7 +213,7 @@ a {
 
 .footer-logo {
     color: #4d5ae5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
