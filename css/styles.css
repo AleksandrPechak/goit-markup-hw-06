@@ -103,15 +103,14 @@ a {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     cursor: pointer;
+    background: #4D5AE5;
 }
 
 .solution-button:hover,
 .solution-button:focus {
-    border-radius: 4px;
     background: #404BBF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .features {
