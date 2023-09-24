@@ -12,10 +12,7 @@ a {
     text-decoration: none;
 }
 
-.header {
-    border-bottom: 1px solid #e7e9fc;
-    background: #fff;
-}
+.header {}
 
 .header-navigation {}
 
