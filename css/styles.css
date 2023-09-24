@@ -77,6 +77,11 @@ a {
     letter-spacing: 0.02em;
 }
 
+.address-menu-link:hover,
+.address-menu-link:focus {
+    color: #404BBF;
+}
+
 .main-page {}
 
 .solution {
