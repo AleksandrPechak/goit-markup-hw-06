@@ -62,7 +62,6 @@ address {
 }
 
 .header {
-    padding: 24px 0;
     background: #FFF;
     border-bottom: 1px solid #e7e9fc;
 }
@@ -85,6 +84,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding: 24px 0;
     margin-right: 76px;
 }
 
