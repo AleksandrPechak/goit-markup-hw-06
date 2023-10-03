@@ -22,7 +22,7 @@ ul {
     list-style: none;
 }
 
-/* a {
+a {
     text-decoration: none;
     color: currentColor;
 }
@@ -37,7 +37,7 @@ img {
 
 address {
     font-style: normal;
-} */
+}
 
 .container {
     width: 1158px;
@@ -54,11 +54,14 @@ address {
     margin: -1px;
     border: 0;
     padding: 0;
+
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+/* ================= Header ================ */
 
 .header {
     background: #FFF;
@@ -96,10 +99,11 @@ address {
     gap: 40px;
 }
 
-.header-menu-item {}
+.header-menu-item {
+    padding: 24px 0;
+}
 
 .header-menu-link {
-    padding: 24px 0;
     color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
@@ -129,7 +133,6 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
     align-items: center;
 }
 
@@ -139,6 +142,8 @@ address {
 }
 
 .main-page {}
+
+/* ================= Solution ================ */
 
 .solution {
     background: #2e2f42;
@@ -166,7 +171,6 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer;
     display: block;
     min-width: 169px;
     height: 56px;
@@ -175,14 +179,14 @@ address {
     border: none;
     margin: 0 auto;
     background: #4D5AE5;
-
-
 }
 
 .solution-button:hover,
 .solution-button:focus {
     background: #404bbf;
 }
+
+/* ================= Features ================ */
 
 .features {
     background: #fff;
@@ -214,6 +218,8 @@ address {
     letter-spacing: 0.02em;
 }
 
+/* ================= Team ================ */
+
 .team {
     background-color: #f4f4fd;
     padding: 120px 0;
@@ -243,9 +249,7 @@ address {
 }
 
 
-.team-img {
-    display: block;
-}
+.team-img {}
 
 .team-discription {
     padding: 32px 0;
@@ -269,6 +273,8 @@ address {
     letter-spacing: 0, 02em;
     text-align: center;
 }
+
+/* ================= Portfolio ================ */
 
 .portfolio {
     padding: 120px 0;
@@ -298,7 +304,6 @@ address {
 
 .portfolio-item-img {
     width: calc((100%-48)/3);
-    display: block;
 }
 
 .portfolio-discription {
@@ -322,6 +327,8 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* ================= Footer ================ */
 
 .footer {
     background: #2e2f42;
