@@ -459,11 +459,8 @@ address {
 
 .port-wrap .port-text {
     position: absolute;
-    margin: 0;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
     padding: 40px 32px;
     display: flex;
     align-items: center;
