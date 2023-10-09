@@ -477,7 +477,7 @@ address {
     letter-spacing: 0.02em;
 }
 
-.portfolio-item:hover .portfolio-cover-block {
+.portfolio-item:hover .portfolio-cover-text {
     transform: translateY(0);
 }
 
