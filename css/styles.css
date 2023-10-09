@@ -427,6 +427,10 @@ address {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.portfolio-item:hover .portfolio-cover-block {
+    transform: translateY(0);
+}
+
 .portfolio-item-img {}
 
 .portfolio-discription {
@@ -477,9 +481,9 @@ address {
     letter-spacing: 0.02em;
 }
 
-.portfolio-item:hover .portfolio-cover-block {
+/* .portfolio-item:hover .portfolio-cover-block {
     transform: translateY(0);
-}
+} */
 
 /* ================= Footer ================ */
 
