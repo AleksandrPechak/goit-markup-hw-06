@@ -451,13 +451,12 @@ address {
     letter-spacing: 0.02em;
 }
 
-.port-wrap {
+.portfolio-cover-wrap {
     position: relative;
     overflow: hidden;
 }
 
-
-.port-wrap .port-text {
+.portfolio-cover-block {
     position: absolute;
     top: 0;
     left: 0;
@@ -468,6 +467,9 @@ address {
     height: 100%;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-cover-text {
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
@@ -475,7 +477,7 @@ address {
     letter-spacing: 0.02em;
 }
 
-.portfolio-item:hover .port-text {
+.portfolio-item:hover .portfolio-cover-block {
     transform: translateY(0);
 }
 
