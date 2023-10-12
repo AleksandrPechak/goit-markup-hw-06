@@ -13,11 +13,11 @@
     --secondary-font: Raleway, sans-serif;
 }
 
-/* *,
+*,
 *::before,
 *::after {
     box-sizing: border-box;
-} */
+}
 
 /* body {
     font-family: var(--main-font);
@@ -44,7 +44,8 @@ h6 {
     margin-bottom: 0;
 }
 
-ul {
+ul,
+ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -58,12 +59,13 @@ a {
 
 button {
     cursor: pointer;
+    border: none;
+    transition: color 250ms cubic-bezier(04, 0, 02, 1);
 }
 
 img {
     display: block;
-    min-width: 100%;
-    color: currentColor;
+    max-width: 100%;
 }
 
 address {
