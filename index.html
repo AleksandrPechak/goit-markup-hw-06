@@ -585,7 +585,8 @@
             <label for="email" class="footer-form-label">
               <input
                 type="email"
-                class="footer-input"
+                class="footer-form-input"
+                name="email"
                 placeholder="E-mail"
                 aria-label="email input"
               />
@@ -600,7 +601,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-btn">
           <svg class="modal-btn-icon" width="8" height="8">
@@ -660,14 +661,15 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-box">
+          <div class="modal-box-check">
             <input
               class="visually-hidden check-input"
-              id="modal-check"
+              id="user-privacy"
               type="checkbox"
-              name="modal-check"
+              name="user-privacy"
+              value="true"
             />
-            <label class="check-text" for="modal-check">
+            <label class="check-text" for="user-privacy">
               <span class="checkbox-container-icon">
                 <svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
