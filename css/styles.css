@@ -680,13 +680,14 @@ address {
 }
 
 .modal-btn:hover,
-.modal-btn:focus {
+:focus {
     background-color: #404bbf;
     border: none;
-    fill: #fff;
+    fill: #ffffff;
 }
 
 .modal-btn-icon {
+    fill: #4D5AE5;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -704,8 +705,7 @@ address {
 .modal-form {}
 
 .modal-box {
-    margin-bottom: 8px;
-    */
+    margin-bottom: 16px;
 }
 
 .modal-lable {
@@ -767,7 +767,6 @@ address {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-text:hover,
 .modal-text:focus {
     border-color: #4D5AE5;
 }
