@@ -271,7 +271,6 @@ address {
 
 .features-item {
     width: 100%;
-    position: relative;
 }
 
 .icon {}
@@ -296,7 +295,8 @@ address {
 
 .team {
     background-color: #f4f4fd;
-    padding: 120px 0;
+    padding: 96px 0;
+    /* padding: 120px 0; */
 }
 
 .team-title {
@@ -313,19 +313,23 @@ address {
 
 .team-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
 .team-item {
     background-color: #ffffff;
-    width: calc((100% - 72px) / 4);
+    /* width: calc((100% - 72px) / 4); */
+    width: 100%;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.team-img {}
+.team-img {
+    margin: 0 auto;
+}
 
 .team-discription {
     padding: 32px 0;
@@ -847,9 +851,9 @@ address {
     pointer-events: auto;
 }
 
-@media screen and (min-widht: 320px) {}
+@media screen and (min-width: 320px) {}
 
-@media screen and (min-widht: 768px) {
+@media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
     }
@@ -859,7 +863,7 @@ address {
     }
 
     .features-list {
-        gap: 24px 72px;
+        gap: 72px 24px;
     }
 
     .features-item {
@@ -867,7 +871,7 @@ address {
     }
 }
 
-@media screen and (min-widht: 1158px) {
+@media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
         padding-left: 15px;
@@ -898,5 +902,4 @@ address {
         height: 112px;
         margin-bottom: 8px;
     }
-
 }
