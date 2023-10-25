@@ -72,6 +72,14 @@ address {
     font-style: normal;
 }
 
+/* .list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+} */
+
 .container {
     max-width: 320px;
     padding-left: 16px;
