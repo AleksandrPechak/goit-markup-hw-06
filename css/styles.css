@@ -222,10 +222,7 @@ address {
     margin-bottom: 48px;
 }
 
-.mob-address {
-    /* margin-top: auto;
-    margin-bottom: 48px; */
-}
+.mob-address {}
 
 .mob-address-menu-list {
     display: flex;
