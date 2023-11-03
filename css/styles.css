@@ -281,7 +281,7 @@ address {
 /* ================= Solution ================ */
 
 .solution {
-    padding: 72px 16px;
+    padding: 72px 0;
     background: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
@@ -1203,6 +1203,14 @@ address {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.05em;
+    }
+
+    .features-item-text {
+        color: #434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
 
     .team>.container {
